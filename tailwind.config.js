@@ -8,4 +8,5 @@ module.exports = {
   daisyui: {
     themes: ['pastel'],
   },
+  safelist: [{ pattern: /^gap-/ }],
 };

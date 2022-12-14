@@ -1,5 +1,5 @@
 const svg = `
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="412" height="412" viewBox="0 0 412 412" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 412 412" fill="none">
 <mask id="mask0_2_22" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="14" y="14" width="384" height="384">
 <circle cx="206" cy="206" r="192" fill="#D9D9D9"/>
 </mask>
