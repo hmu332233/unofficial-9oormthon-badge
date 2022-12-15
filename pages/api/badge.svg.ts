@@ -11,7 +11,8 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
 ) {
-  const svg = createSvg();
+  const { text, speed } = req.query;
+  const svg = createSvg(text as string, speed as string);
 
   res.setHeader('Content-Type', 'image/svg+xml');
   // res.setHeader('Cache-Control', 's-maxage=300, max-age=300');
