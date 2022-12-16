@@ -1,4 +1,7 @@
-export const createSvg = (text: string = '구름톤', speed: string = '2') => {
+export const createSvg = (
+  text: string = '구름구름구르미',
+  speed: string = '2',
+) => {
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 412 472" fill="none">
     <circle cx="206" cy="200" r="192" fill="#064738"/>
