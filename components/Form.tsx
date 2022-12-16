@@ -7,7 +7,12 @@ function Form({}: Props) {
   const { register } = useFormContext();
 
   return (
-    <form className="flex flex-col gap-2 w-full max-w-xs">
+    <form
+      className="flex flex-col gap-2 w-full max-w-xs"
+      onSubmit={(e) => {
+        e.preventDefault();
+      }}
+    >
       <FormItem label="텍스트">
         <input
           type="text"

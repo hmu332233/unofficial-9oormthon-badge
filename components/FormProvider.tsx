@@ -9,7 +9,7 @@ import {
 } from 'react-hook-form';
 
 const DEFAULT_FORM_VALUES: FormData = {
-  text: '구름톤',
+  text: '구름구름구르미',
   speed: '9',
 } as const;
 
