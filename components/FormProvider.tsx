@@ -10,7 +10,7 @@ import {
 
 const DEFAULT_FORM_VALUES: FormData = {
   text: '구름톤',
-  speed: '2',
+  speed: '9',
 } as const;
 
 type Props = {

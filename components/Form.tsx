@@ -12,7 +12,6 @@ function Form({}: Props) {
         <input
           type="text"
           className="input input-bordered"
-          defaultValue={'구름톤'}
           {...register('text', { required: true })}
         />
       </FormItem>
@@ -22,7 +21,7 @@ function Form({}: Props) {
           type="range"
           min="1"
           max="10"
-          defaultValue={'2'}
+          step="0.5"
           {...register('speed', { required: true })}
         />
       </FormItem>

@@ -8,7 +8,9 @@ function useBadgeUrl() {
 
   useEffect(() => {
     const subscription = watch(({ text, speed }) =>
-      setQueryString(objectToQueryString({ text, speed })),
+      setQueryString(
+        objectToQueryString({ text, speed: 10 - parseInt(speed) }),
+      ),
     );
     return () => subscription.unsubscribe();
   }, [watch, setQueryString]);

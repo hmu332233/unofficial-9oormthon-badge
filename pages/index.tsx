@@ -12,10 +12,10 @@ function Index() {
         <Drawer.Content>
           <Layout>
             <p className="text-center">
-              4기 구름톤을 위한 한정판 뱃지입니다!
+              4기 구름톤을 위한 <span className="font-bold">한정판 배지</span>
+              입니다!
               <br />
-              텍스트와 스피드를 입력하고, 공유하기를 눌러주세요!
-              <br />
+              공유하기를 눌러주세요!
             </p>
             <Preview />
             <Form />
