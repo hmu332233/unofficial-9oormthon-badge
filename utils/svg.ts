@@ -72,6 +72,7 @@ export const createSvg = (text: string = '구름톤', speed: string = '2') => {
           </div>
         </div>
       </div>
+      </foreignObject>
     </svg>
     `;
   return svg;
