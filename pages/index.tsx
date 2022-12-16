@@ -9,16 +9,14 @@ function Index() {
     <Drawer>
       <Drawer.Content>
         <Layout>
-          <Space>
-            <p>
-              구름톤 기간에만 열려있는 한정판 뱃지입니다!
-              <br />
-              사용할 곳의 도메인을 입력하고, 공유하기를 눌러주세요!
-              <br />
-            </p>
-            <Preview />
-            <Drawer.Button>공유하기</Drawer.Button>
-          </Space>
+          <p>
+            구름톤 기간에만 열려있는 한정판 뱃지입니다!
+            <br />
+            사용할 곳의 도메인을 입력하고, 공유하기를 눌러주세요!
+            <br />
+          </p>
+          <Preview />
+          <Drawer.Button>공유하기</Drawer.Button>
         </Layout>
       </Drawer.Content>
       <Drawer.Side>

@@ -54,7 +54,7 @@ type ButtonProps = {
 };
 function Button({ className, children }: ButtonProps) {
   return (
-    <label htmlFor={ID} className="btn w-full max-w-md">
+    <label htmlFor={ID} className="btn w-full max-w-xs">
       {children}
     </label>
   );

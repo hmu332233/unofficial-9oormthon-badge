@@ -15,7 +15,7 @@ function Footer() {
         </div>
         <div className="ml-auto">
           <a
-            href="https://github.com/hmu332233/dday.svg"
+            href="https://github.com/hmu332233/unofficial-9oormthon-badge"
             target="_blank"
             rel="noreferrer"
           >

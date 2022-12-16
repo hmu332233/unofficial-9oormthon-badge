@@ -6,7 +6,6 @@ type Props = {
 
 function CodeBox({ contents }: Props) {
   const handleClick = async () => {
-    console.log('sadfads');
     await navigator.clipboard.writeText(contents);
     // TODO: 다른 UI로 대체
     alert('Copied!');
